@@ -1,0 +1,120 @@
+	.cabecalho{
+					width: 90%;
+					border: thin solid #FFF;
+					margin: 0% auto;
+					padding: 1%;
+					border-radius: 1em;
+					box-shadow: 3px 3px 5px #444;
+					text-align:center;
+					
+				}
+		.logo{
+			border-radius: 1em;
+			width: 200px;
+			}
+			
+		.corpo{
+			width: 80%;
+			border: thin solid #FFF;
+			margin: 3% auto;
+			padding: 1%;
+			border-radius: 1em;
+			box-shadow: 3px 3px 5px #444;
+			text-align:center;
+			}
+		.foto{
+			border-radius: 5px;
+			height:320px;
+			width:240px;
+			margin: 0% 1%;
+			}
+		.foto3{
+			border-radius: 5px;
+			height:200px;
+			width:140px;
+			margin: 0% 1%;
+			
+			}
+		.foto4{
+			border-radius: 5px;
+			height:100px;
+			width:80px;
+			margin: 0% 0.5%;
+			}
+			
+		.foto5{
+			text-align:center;
+			}
+			
+			
+		
+		
+		nav alterar{
+			padding: 10%;
+			text-align: center;
+			}
+		nav ul.foto2{
+			
+			padding: 0;
+			text-align: center;
+			}
+		
+		nav li{
+			display: inline;
+					}
+		.nome a{ 
+			background-color: #6C3;
+			padding:5px 20px;
+			color: white;
+			text-decoration:none;
+			border-radius: 5px;
+			margin: 5% 4em 1%;
+						
+			}
+		.nome ul{
+			text-align:center;
+			}
+		
+		.nome a:hover{
+			color: yellow;
+			background-color: #060;
+			}
+			#fotos2{
+			columns:  3; 
+			-webkit-columns: 3; 
+			-moz-columns: 3;
+			
+			}
+			#principal{
+			columns:  1;
+			-webkit-columns: 1; 
+			-moz-columns: 1;
+			}
+		.msgcad{
+			margin: 3% 3%;
+			text-align:center;
+			
+			}
+		.msgcad a {	
+				text-decoration:none;
+				color: #6C3;
+				
+				}
+		
+		.msgcad a:hover{
+				color:#060;
+				}
+		#dados{
+			columns:  2; 
+			-webkit-columns: 2; 
+			-moz-columns: 2;
+			margin: 5%;
+			
+		}
+		.imagem	{			
+		display: inline;
+		margin: 5% auto;
+			
+		
+				}
+		

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title> Pós Gradução Desesvolvimento Web - Atividade 5
+		<title> PÃ³s GraduÃ§Ã£o Desesvolvimento Web - Atividade 5
 		</title>
 		<meta charset="uft-8"/>
 		<link rel="stylesheet" href="css/estilo.css" />
@@ -12,7 +12,7 @@
 		<body>
 		<?php
 		session_start();
-				if(isset($_SESSION["logged"]) && $_SESSION["logged"]==true){   //protege o acesso caso não exista a variável logged
+				if(isset($_SESSION["logged"]) && $_SESSION["logged"]==true){   //protege o acesso caso nÃ£o exista a variÃ¡vel logged
 		if (empty($_SESSION["cont"])) {
 		$_SESSION["cont"] = 1;
 		} else {
@@ -24,10 +24,10 @@
 		}
 		
 		}
-		else{	//mensagem de erro para acesso não autorizado
+		else{	//mensagem de erro para acesso nÃ£o autorizado
 		
 		header ("location:index.php");
-		echo "ERRO:  Faça o login";
+		echo "ERRO:  FaÃ§a o login";
 
 		}
 		?>
@@ -35,7 +35,7 @@
             <header>
 				<p><img src="img/logo_puc_minas_virtual.jpg" alt="Logo Puc Minas" title="Logo Puc Minas" class="logo"/>
 					</p>			
-				<h1>Pós-Graduação - Desenvolvimento de Aplicações Web</h1>
+				<h1>PÃ³s-GraduaÃ§Ã£o - Desenvolvimento de AplicaÃ§Ãµes Web</h1>
 			</header>
 		</section>
             
@@ -80,7 +80,7 @@
 			
         </section>
 		 <section class="corpo">
-		  <div class="foto2">
+		  <div class="dados">
 				
 				<?php
 				include'conexao2.php';

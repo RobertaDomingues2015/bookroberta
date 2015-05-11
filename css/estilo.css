@@ -120,9 +120,7 @@
 		#aluno {
     			display:inline; /*Bug da margem dupla para floats no IE*/ 
     			float:left;
-    			-webkit-columns: 2; 
-			-moz-columns: 2;
-    			width:50%;
-			 margin-left:5%;
+    		  	width:50%;
+			 margin-left:20%;
 		 }
 		

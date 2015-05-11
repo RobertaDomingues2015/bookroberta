@@ -35,10 +35,6 @@ if ((in_array($extensao, $permissoes))
 
 $arquivoFoto= $_FILES['fileName']['name'];
 
-$sql= "UPDATE participantes SET arquivoFoto='$arquivoFoto' WHERE login='$login'"; 
-$query=mysql_query($sql);
-$insert=  mysql_query($sql);
-
 $login=$_POST['login'];
 $senha=$_POST['senha'];
 $nomeCompleto= $_POST['nomeCompleto'];

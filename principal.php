@@ -80,7 +80,7 @@
 			
         </section>
 		 <section class="corpo">
-		  <div id="aluno">
+		  <div id="dados">
 				
 				<?php
 				include'conexao2.php';

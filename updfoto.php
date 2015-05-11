@@ -35,13 +35,20 @@ if ((in_array($extensao, $permissoes))
     }
   else
     {
-	  $dirUploads = "https://github.com/RobertaDomingues2015/bookroberta/tree/master/uploads/";
-	 $nomeUsuario = $_SESSION['login']."/";	  
-	  $caminhoUpload = $dirUploads
-	 $pathCompleto = $caminhoUpload.basename($_FILES["fileName"]["name"]);
+	  $dirUploads = "uploads/";
+      $nomeUsuario = $_SESSION['login']."/";	  
+	  
+	  if(!file_exists ( $dirUploads ))
+			mkdir($dirUploads, 0500);  //permissao de leitura e execucao
+	  
+	  $caminhoUpload = $dirUploads.$nomeUsuario;
+	  if(!file_exists ( $caminhoUpload ))
+			mkdir($caminhoUpload, 0700);  //permissoes de escrita, leitura e execucao
+			
+	  $pathCompleto = $caminhoUpload.basename($_FILES["fileName"]["name"]);
 	  move_uploaded_file($_FILES["fileName"]["tmp_name"], $pathCompleto);
       
-  
+  }
   }
 
 $arquivoFoto= $_FILES['fileName']['name'];

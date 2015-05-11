@@ -14,6 +14,7 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 		<link href="css/signin.css" rel="stylesheet">
+		</head>
 		<body>
 		<?php
 		session_start();

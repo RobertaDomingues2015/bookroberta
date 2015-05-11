@@ -35,7 +35,7 @@ if ((in_array($extensao, $permissoes))
     }
   else
     {
-	  $dirUploads = "uploads/";
+	  $dirUploads = "https://github.com/RobertaDomingues2015/bookroberta/tree/master/uploads/";
       $nomeUsuario = $_SESSION['login']."/";	  
 	  
 	  if(!file_exists ( $dirUploads ))

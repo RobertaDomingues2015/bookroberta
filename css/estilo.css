@@ -124,3 +124,19 @@
 			 margin-left:20%;
 		 }
 		
+	ul {
+        list-style-type: none;
+        display:block;
+       
+        
+   }
+
+
+li {
+        display: inline-block;
+        padding: 0;
+        margin: 1em;
+        border-style: solid;
+        border-width: 1px;
+        
+	}

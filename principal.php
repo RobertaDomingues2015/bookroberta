@@ -91,7 +91,7 @@
 				$sql="SELECT * FROM participantes";
 				$consulta= mysql_query($sql);	
 				while($dados=mysql_fetch_assoc($consulta)){
-				 echo"<div id='dados'>";
+				 echo"<div id='aluno'>";
 				echo "<figure class='imagem'><a href='usuario.php?login=$dados[login]'><img src='uploads/$dados[login]/$dados[arquivoFoto]' alt='$dados[nomeCompleto]' title='$dados[nomeCompleto]' class='foto'/></a>";
 				echo"<figcaption class='nome'><a href='usuario.php?login=$dados[login]'>$dados[nomeCompleto]</a>";
 				echo"</figcaption>";

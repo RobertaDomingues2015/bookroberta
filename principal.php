@@ -85,20 +85,24 @@
         </section>
 		 <section class="corpo">
 		 
-				
+			  <table>
+                		<ul>
+	
 				<?php
 				include'conexao2.php';
 				$sql="SELECT * FROM participantes";
 				$consulta= mysql_query($sql);	
 				while($dados=mysql_fetch_assoc($consulta)){
-				 echo"<div id='dados'>";
+				 echo"<li>";
 				echo "<figure class='imagem'><a href='usuario.php?login=$dados[login]'><img src='uploads/$dados[login]/$dados[arquivoFoto]' alt='$dados[nomeCompleto]' title='$dados[nomeCompleto]' class='foto'/></a>";
 				echo"<figcaption class='nome'><a href='usuario.php?login=$dados[login]'>$dados[nomeCompleto]</a>";
 				echo"</figcaption>";
 				echo"<figure>";
-				echo "</div>";
+				echo "</li>";
 				}?>
-				
+				</ul>
+		  </table>
+
 			
 		</section>
             
